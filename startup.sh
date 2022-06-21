@@ -5,9 +5,6 @@ set -ex
 #update and upgrade
 sudo apt-get update && sudo apt-get upgrade -y
 
-#install net-tools
-sudo apt install net-tools
-
 
 #install make
 sudo apt-get install make
@@ -47,7 +44,7 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 #install kind
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.14.0/kind-linux-amd64
 chmod +x ./kind
-mv ./kind /usr/local/bin/kind
+sudo mv ./kind /usr/local/bin/kind
 
 
 #install minikube
