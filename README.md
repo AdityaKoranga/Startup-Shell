@@ -1,2 +1,12 @@
 # Startup-Shell
-installing different libraries and packages in single script.
+installing following things:
+* docker
+* kubernetes
+* kubectl
+* kubelet
+* kubeadm
+* minikube
+* kind
+* helm
+* ansible 
+* and several packages
