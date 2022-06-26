@@ -20,7 +20,7 @@ sudo apt-get update
 yes | sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 #post docker installation
-sudo groupadd docker
+# sudo groupadd docker
 sudo usermod -aG docker $USER
 
 #install kubectl, kubelet and kubeadm
@@ -46,7 +46,7 @@ chmod 700 get_helm.sh
 sudo apt update
 sudo apt install software-properties-common
 sudo add-apt-repository --yes --update ppa:ansible/ansible
-sudo apt install ansible
+yes | sudo apt install ansible
 
 #install minikube
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
