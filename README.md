@@ -1,5 +1,6 @@
-# Startup-Shell
-Contains ready to run script file installing following things:
+# Overview 
+
+This repository is based on the shell script to setup the environment for the following things:
 * docker
 * kubernetes
 * kubectl
@@ -10,15 +11,27 @@ Contains ready to run script file installing following things:
 * helm
 * ansible 
 * and several packages
-## After cloning the repository:
+
+# Procedures:
+
+Follow the below procedures to setup the environment:
+
+**1. First clone the repository to your local system.**
+```
+git clone https://github.com/AdityaKoranga/Startup-Shell.git 
+```
+
+**2. Change the directory to Startup-Shell.**
 ```
 cd Startup-Shell/
 ```
-## Change the mode of the script file before executing it.
+
+**3. Change the mode of the script file before executing it.**
  ```
 chmod 700 startup.sh
 ```
-** Now execute the script file **
+
+**4. Execute the script.**
 ```
 ./startup.sh
 ```
