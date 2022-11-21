@@ -23,7 +23,7 @@ yes | sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-
 # sudo groupadd docker
 sudo usermod -aG docker $USER
 
-sudo apt install docker-compose
+sudo apt install docker-compose -y
 
 #install kubectl, kubelet and kubeadm
 sudo apt-get update
